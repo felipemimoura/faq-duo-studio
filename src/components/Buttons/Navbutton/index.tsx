@@ -9,7 +9,7 @@ interface NavbuttonProps {
 
 export function Navbutton({ text, backgroundColor, image }: NavbuttonProps) {
   return (
-    <Styled.Button backgroundColor={backgroundColor}>
+    <Styled.Button backgroundColor={backgroundColor} type="button">
       {image && (
         <Image src={image} alt="Icone de editar" width={16} height={16} />
       )}
