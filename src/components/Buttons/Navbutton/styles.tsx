@@ -4,13 +4,15 @@ interface ButtonProps {
   backgroundColor: string;
 }
 export const Button = styled.button<ButtonProps>`
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem;
+  min-width: 18rem;
 
   border-radius: 2.8rem;
 
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  justify-content: center;
+  gap: 0.8rem;
 
   text-transform: uppercase;
   font-weight: 600;
