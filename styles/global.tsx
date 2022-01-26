@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     --blue-200: #0FB3D3;
 
     --purple-100:#A141EB;
-    --purble-300: #7928B7;
+    --purple-300: #7928B7;
 
     --yellow-200: #E1A607;
 
@@ -26,4 +26,10 @@ export const GlobalStyles = createGlobalStyle`
     background: var(--white);
     
   }
+
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
 `;
