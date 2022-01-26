@@ -26,4 +26,10 @@ export const GlobalStyles = createGlobalStyle`
     background: var(--white);
     
   }
+
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
 `;
