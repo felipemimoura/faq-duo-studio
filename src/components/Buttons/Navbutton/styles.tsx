@@ -1,8 +1,9 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 interface ButtonProps {
   backgroundColor: string;
 }
+
 export const Button = styled.button<ButtonProps>`
   padding: 0.8rem;
   min-width: 24rem;

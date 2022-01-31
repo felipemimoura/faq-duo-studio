@@ -8,7 +8,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 0.8rem;
+  gap: 1.2rem;
+  padding: 0.8rem;
 `;
 
 export const Content = styled.div`
@@ -29,4 +30,6 @@ export const Button = styled.button<ButtonProps>`
 
 export const Answer = styled.div`
   font-size: 2rem;
+  font-weight: 200;
+  width: 80%;
 `;

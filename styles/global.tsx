@@ -22,7 +22,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body{
-    width: 100vw;
+    width: 100%;
     background: var(--white);
     
   }
