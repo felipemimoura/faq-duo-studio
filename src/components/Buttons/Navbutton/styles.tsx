@@ -5,14 +5,16 @@ interface ButtonProps {
 }
 export const Button = styled.button<ButtonProps>`
   padding: 0.8rem;
-  min-width: 18rem;
+  min-width: 24rem;
 
   border-radius: 2.8rem;
+
+  height: 3.2rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.8rem;
+  gap: 2.4rem;
 
   text-transform: uppercase;
   font-weight: 600;
